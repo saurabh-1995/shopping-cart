@@ -232,5 +232,5 @@ if (len > 0) {
 }
 function reset_grocery()
 {
-    //data.innerHTML=" ";
+    data.innerHTML=" ";
 }
