@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>
+        Cart
+    </title>
+    <link rel="stylesheet" type="text/css" href="Cart.css" />
+</head>
+<body>
+    <div class="shopping">
+        <img src="shopping_logo.png" height="70px" width="85px">
+        <br/>
+        <a href="#" class="title_bar">Shopoholic</a>
+        <div class="title_body">
+            <b>
+                <a href="#" target="_blank">Home</a>
+            </b>
+            <b>
+                <a href="#" target="_blank">Products</a>
+            </b>
+            <b>
+                <a href="#" target="_blank">Favourites</a>
+            </b>
+            <b>
+                <a href="#" target="_blank">About-Us</a>
+            </b>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <center>
+            <input id="text_area_style" placeholder="Enter the Item Name" name="value">
+            <button class="search_position" type="button" name="search" onclick="search_grocery()">Search
+            </button>
+        </center>
+        <center>
+            <h3 id="demo"></h3>
+        </center>
+        <button class="restore_position" type="reset" value="reset" onclick="reset()">Reset
+        </button>
+        <button class="add_position" type="button" value="button" onclick="add_cart()">Add To Cart
+        </button>
+    </div>
+    <div class="cart">
+        <h3>Cart Menu</h3>
+        <img src="cart_logo.png" height="70px" width="70px">
+        <table id="demo1">
+        </table>
+        <center>
+            <a href="bill_Cart.html">
+            <button class="checkout_position" type="button" name="button" onclick="order_price()">CheckOut
+            </button>
+            </a>            
+        </center>
+    </div>
+</body>
+<script src="Cart.js">
+</script>
+</html>

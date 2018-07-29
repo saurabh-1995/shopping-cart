@@ -1,0 +1,138 @@
+.shopping
+{
+    width: 75%;
+    height: 100%;
+    max-height: 200%;
+    background-size: 100%;
+    padding-bottom: 0%; 
+    position: absolute;
+    background-color: powderblue;
+    overflow: auto;
+    background-image: url("wallpaper1.jpg");
+    opacity: 100%;
+}
+.cart
+{
+    width: 25%;
+    height: 100%;
+    max-height: 200%;
+    background-size: 100%;
+    max-height: 200%;
+    margin-top: 0%;
+    margin-left: 75%;
+    padding-bottom: 0%;
+    position: absolute;
+    background-color: aquamarine;
+    overflow: auto;
+    background-image: url("cart_wallpaper.gif");
+    background-repeat: repeat;   
+}
+#text_area_style
+{
+    border-color: coral;
+}
+.restore_position
+{
+    margin-top: 100px;
+    margin-left: 40px;
+    height: 40px;
+    width: 80px;
+    border-style: double;
+    border-bottom-color: teal;
+    border-top-color: teal;
+}
+.add_position
+{
+    margin-top: 10px;
+    margin-left: 700px;
+    height: 40px;
+    width: 80px;
+    border-style: double;
+    border-bottom-color: teal;
+    border-top-color: teal;
+}
+.checkout_position
+{
+    margin-top: 175px;
+    
+    width: 80px;
+    text-align: center;
+    height: 40px;
+    border-top-style: double;
+    border-top-color: blueviolet;
+    border-bottom-color: darkblue;
+}
+.search_position
+{   
+    border-style: groove;
+    border-bottom-color: yellow;
+    border-top-color: tomato;
+    border-left-color: violet;
+    border-right-color: slateblue;
+}
+.table_position
+{
+    margin-top: 90px;
+    text-align: center;
+}
+.title_bar:link
+{
+    background-color: blue;
+    color: white;
+    padding:14px 7px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+.title_bar:visited
+{
+    background-color:whitesmoke;
+    color:black;
+    padding: 14px 7px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+.title_bar:hover
+{
+    background-color:pink;
+}
+.title_bar:active
+{
+    background-color:blue;
+}
+.title_body
+{
+    padding-top: 0%;
+    margin-top: -50px;
+    margin-left: 150px;
+    word-spacing: 75px;
+}
+table
+{
+    border-collapse: collapse;
+    margin-top: 40px;
+    width: 75%;
+}
+th
+{
+    text-align: left;
+    padding: 8px;
+    background-color: #4CAF50;
+    color:white;
+}
+td
+{
+    text-align: left;
+    padding: 8px;    
+}
+tr:nth-child(even)
+{
+    background-color: powderblue;
+}
+tr
+{
+    background-color:pink;
+}
+
+
